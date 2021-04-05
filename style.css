@@ -3,34 +3,35 @@
     margin: 0;
     padding: 0;
 }
-.topnav {
+#topnav {
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
-.topnav > a { 
+#topnav > a { 
     font-size: 15px;
     padding: 14px 15px;
     text-decoration: none;
 }
-.topnav a:hover {
+#topnav a:hover {
     text-decoration: underline;
 }
-.topnav > a > button {
+#topnav > a > button {
     color: white;
     background-color: rgb(57, 128, 209);
     width: 70px;
     height: 30px;
 }
-.src-box {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
 #src-box{
+    height: 500px;
+    width: auto;
     display: grid;
     justify-content: center;
     text-decoration: none;
 }
-
+footer {
+    height: auto;
+    width: auto;
+    display: grid;
+    align-items: flex-end;
+}
