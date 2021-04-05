@@ -1,42 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Google</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <div id="nav-panel">
-          <!--PARTE SUPERIOR-->
-          <nav>
-            <ul>
-              <a href="#">About</a>
-              <a href="#">Store</a>
-              <a href="#">Gmail</a>
-              <a href="#">Images</a>
-              <a href="#">CUADRITO</a>
-              <button>Sign in</button>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <div id="logo">
-        <img src="./images/googlelogo.png" alt="logo que dice Google"
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Google</title>
+</head>
+<body>
+   <!--PARTE SUPERIOR-->
+      <div class="topnav">
+          <a href="#">About</a>
+          <a href="#" style="grid-column: 2/9;">Store</a>
+          <a href="#" style="text-align: end;">Gmail</a>
+          <a href="#" style="text-align: end;">Images</a>
+          <a id="appicon" href="#" style="text-align: center;"><img src="/images/apps-outline.svg" alt="more apps (icon)" style="width: 20px; height: 20px;"></a>
+         <a><button>Sign in</button></a>
       </div>
-      <div id="buscador">
-        <nav>
-          <ul>
-            <img />
-            <input type="search" />
-            <img />
+   <!--SEARCH BOX-->
+    <div id="src-box">
+      <img src="./images/googlelogo.png" alt="A logo that said: Google" </div>
+      <div id="input">
+        <ul>
+            <li><img src=""/></li>
+            <li><input type="search" /></li>
+            <li> <img src="" /></li>
           </ul>
-        </nav>
       </div>
       <footer>
-        <nav>
           <ul>
             <a href="#">Advertising</a>
             <a href="#">Business</a>
@@ -45,8 +36,7 @@
             <a href="#">Terms</a>
             <a href="#">Settings</a>
           </ul>
-        </nav>
       </footer>
-    </main>
-  </body>
+</body>
+
 </html>
