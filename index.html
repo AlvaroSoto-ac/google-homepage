@@ -24,15 +24,11 @@
 <body>
    <!--PARTE SUPERIOR-->
       <div id="topnav">
-        <div class="left-nav">
-          <a href="#">About</a>
-          <a href="#" style="grid-column: 2/9;">Store</a>
-        </div>
         <div class="right-nav">
           <a href="#" style="text-align: end;">Gmail</a>
           <a href="#" style="text-align: end;">Images</a>
           <a id="appicon" href="#" style="text-align: center;"><img src="/images/apps-outline.svg" alt="more apps (icon)" style="width: 20px; height: 20px;"></a>
-         <a><button>Sign in</button></a>
+         <button id="btn" type="button">Sign in</button>
         </div>
       </div>
    <!--SEARCH BOX-->
@@ -40,27 +36,26 @@
       <div id="logo">
         <img src="./images/googlelogo.png" alt="A logo that said: Google" </div>
       </div>
-      <div>
-          <a> <span class="material-icons-outlined">
-              search
-              </span></li></a>
-          <a><input type="search" id="input-box"/></a></li>
-          <a><span class="material-icons-outlined">
-              mic
-              </span></a>
-          
+      <div id="input-container">  
+            <a id="src-icon"><span class="material-icons-outlined">search</span></a> 
+            <input type="search" id="input-write" placeholder="Search in Google or write an URL"/>
+            <a id="voice-icon" ><span class="material-icons-outlined">mic</span></a>    
       </div>
     </div>
     <footer>
-          <ul>
+         <div class="left-bnav">
             <a href="#">About</a>
             <a href="#">Advertising</a>
             <a href="#">Business</a>
-            <a href="#">How Search Words</a>
+            <a href="#">How Search Words</a> 
+         </div>
+         <div class="rigth-bnav">
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
             <a href="#">Settings</a>
-          </ul>
+         </div>
+
+     
     </footer>
 </body>
 
