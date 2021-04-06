@@ -24,7 +24,7 @@ a:hover {
     font-size: 12px;
     justify-content: end;
 }
-button {
+#btn-sign {
     border: none;
     padding:  10px;
     color:white;
@@ -67,7 +67,10 @@ button {
     justify-self: end;
     color: rgb(156, 156, 156);
 }
-#input-container > #voice-icon {
+#input-container > #btn-voice {
+    background: none;
+    border: 0 transparent;
+    justify-self: start;
     z-index: 1;
     padding: 6px 0;
     color: rgb(156, 156, 156);
